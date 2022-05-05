@@ -24,7 +24,8 @@ class CreateUserService {
             avatar,
             name,
           },
-        }
+        },
+        { new: true }
       );
       return user;
     } else {
